@@ -1,0 +1,27 @@
+/* Le code CSS de l'exercice dirigé */
+
+q {
+	font-style: italic;
+	quotes:"« " " »";
+	color: #4CAF50;
+}
+
+blockquote {
+	font-size:1.2rem;
+	font-style:italic;
+}
+
+blockquote p::before {
+	content:"« ";
+	color:red;
+}
+
+blockquote p::after {
+	content:" »";
+	color:red;
+}
+
+cite {
+	color:deepskyblue;
+	font-style:normal;
+}

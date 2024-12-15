@@ -1,0 +1,29 @@
+/* Le code CSS de l'exercice dirigé */
+body {
+	line-height: 1.5;
+}
+article {
+	text-align:justify;
+}
+.container {
+	max-width: 960px;
+	/* background: #ccc; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin: haut/bas droite/gauche */
+	margin:0 auto;
+}
+
+.img-left {
+	float:left;
+	margin-right:1rem;
+}
+
+.img-right {
+	float:right;
+	margin-left:1rem;
+}
+
+.clear {
+	clear: both;
+}

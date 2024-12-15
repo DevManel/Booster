@@ -1,0 +1,41 @@
+/* Le code CSS de l'exercice dirigé */
+
+/*font-face*/
+
+
+h1 {
+  color:red;
+}
+
+/*déclaration de la font pour l'utiliser sur les balises*/
+/*un font-face par fichier ttf*/
+@font-face {
+  
+  /* on defini un nom de pour la font*/
+  font-family: "PlayfairDisplay-Regular";
+
+  /* chemin pour charger le fichier source de la font*/
+  /* ../ pour sortir du dossier css */
+
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.ttf") format("truetype");
+
+  /* on défini le style */
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*déclaration de font-face pour les balises Hx*/
+@font-face {
+  font-family: "PlayfairDisplay-BlackItalic";
+  src: url("../fonts/Playfair/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 900;
+}
+
+body {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+h1, h2, h3 {
+  font-family: "PlayfairDisplay-BlackItalic";
+}

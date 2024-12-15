@@ -1,0 +1,36 @@
+/* Le code CSS de l'exercice dirigé */
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-cu-<uniquifier> {
+	nom google de la font
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+
+  graisse de la font
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+
+h1 {
+
+/*	link de la font dans le <head> du index.html*/
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+}
+h3 {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+

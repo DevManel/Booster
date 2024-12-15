@@ -1,0 +1,26 @@
+div, header, nav, footer, main, section, article, aside, p, h1, h2 {
+	margin:  15px;
+}
+
+.container {
+	border: 4px solid black;
+}
+
+header, main, footer {
+	background-color: #dff7ff;
+	border: 3px solid blue;
+}
+
+nav, section, aside {
+	background-color: #e3e3e3;
+	border:  2px solid grey;
+}
+
+article {
+	background-color: #fff4e1;
+	border:  1px solid #ff642b;
+}
+
+.license {
+	text-align: center;
+}
